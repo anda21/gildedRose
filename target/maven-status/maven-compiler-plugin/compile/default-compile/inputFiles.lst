@@ -1,0 +1,13 @@
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/dto/EntryToTheBackstageItem.java
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/repositories/ItemRepository.java
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/dto/Item.java
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/com/test/gildedRose/config/SwaggerConfiguration.java
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/dto/BackstagePassesItem.java
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/controllers/WebController.java
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/controllers/ItemControllor.java
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/dto/SulfurasItem.java
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/models/ItemModel.java
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/dto/AgedBrieItem.java
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/com/test/gildedRose/data/GenerateSampleData.java
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/services/GildedRoseService.java
+/home/anda/Desktop/anda/gildedRose/src/main/java/com/test/gildedRose/GildedRoseApplication.java

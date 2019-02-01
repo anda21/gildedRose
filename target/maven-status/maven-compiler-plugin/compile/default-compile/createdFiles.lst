@@ -1,0 +1,7 @@
+com/test/gildedRose/GildedRoseApplication.class
+com/test/gildedRose/dto/Item.class
+com/test/gildedRose/models/ItemModel.class
+com/test/gildedRose/services/GildedRoseService.class
+com/test/gildedRose/com/test/gildedRose/config/SwaggerConfiguration.class
+com/test/gildedRose/com/test/gildedRose/data/GenerateSampleData.class
+com/test/gildedRose/repositories/ItemRepository.class

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+    <script src=" https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="/js/datatable.js"></script>
+</head>
+<body>
+    <div style="width:50%;margin:auto;">
+        <table id="example" class="display" style="width:70%">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Quality</th>
+                    <th>Sellin</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="t : ${test}" >
+                    <td th:text="${t.name}"></td>
+                    <td th:text="${t.quality}"></td>
+                    <td th:text="${t.sellIn}"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <form th:action="@{''}" th:object="${itemModel}" th:method="POST">
+            <table>
+                    <td></td>
+                    <input type="submit" value="UPDATE" />
+
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
